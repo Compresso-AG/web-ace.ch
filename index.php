@@ -207,12 +207,12 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
                         <div class="skill-card">
                             <div class="skill-icon"><img src="assets/icons/pause.svg" alt=""></div>
                             <h4>Animationen stoppen</h4>
-                            <p>Alle CSS-Animationen und GIFs anhalten – wichtig bei Epilepsie oder vestibulären Störungen.</p>
+                            <p>Alle CSS-Animationen und GIFs anhalten was wichtig ist bei Epilepsie oder vestibulären Störungen.</p>
                         </div>
                         <div class="skill-card">
                             <div class="skill-icon"><img src="assets/icons/volume-slash.svg" alt=""></div>
                             <h4>Audio stumm</h4>
-                            <p>Videos und Player (YouTube, Vimeo) stummschalten – für eine ruhige Browsing-Erfahrung.</p>
+                            <p>Videos und Player (YouTube, Vimeo) stummschalten. Für eine ruhige Browsing-Erfahrung.</p>
                         </div>
                     </div>
                 </div>
