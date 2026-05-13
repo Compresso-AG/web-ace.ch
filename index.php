@@ -12,15 +12,24 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ace – Dein Maskottchen für mehr Barrierefreiheit | Compresso</title>
     <meta name="description" content="Hi, ich bin Ace! Ich helfe dir, deine Website zugänglicher zu machen – mit 12+ Funktionen für Schrift, Farbe, Vorlesen und mehr.">
+    <meta name="theme-color" content="#a0ebca">
+
+    <link rel="canonical" href="https://web-ace.ch/">
 
     <!-- Open Graph / Social -->
     <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Ace – Compresso AG">
+    <meta property="og:locale" content="de_CH">
+    <meta property="og:url" content="https://web-ace.ch/">
     <meta property="og:title" content="Ace – Dein Maskottchen für mehr Barrierefreiheit">
     <meta property="og:description" content="Hi, ich bin Ace! Ich helfe dir, deine Website zugänglicher zu machen – mit 12+ Funktionen für Schrift, Farbe, Vorlesen und mehr.">
-    <meta property="og:image" content="assets/ace.svg">
+    <meta property="og:image" content="https://web-ace.ch/assets/ace.svg">
+    <meta property="og:image:alt" content="Ace, das Maskottchen für Web-Barrierefreiheit">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Ace – Dein Maskottchen für mehr Barrierefreiheit">
     <meta name="twitter:description" content="Hi, ich bin Ace! Ich helfe dir, deine Website zugänglicher zu machen – mit 12+ Funktionen.">
+    <meta name="twitter:image" content="https://web-ace.ch/assets/ace.svg">
+    <meta name="twitter:image:alt" content="Ace, das Maskottchen für Web-Barrierefreiheit">
 
     <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
     <link rel="alternate icon" type="image/x-icon" href="assets/favicon.ico">
@@ -37,6 +46,31 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
       gtag('js', new Date());
 
       gtag('config', 'G-1TLVP0S02W');
+    </script>
+
+    <!-- Structured Data: Organization + WebSite -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://compresso.ch/#organization",
+          "name": "Compresso AG",
+          "url": "https://compresso.ch",
+          "logo": "https://web-ace.ch/assets/logo.png"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://web-ace.ch/#website",
+          "url": "https://web-ace.ch/",
+          "name": "Ace – Dein Maskottchen für mehr Barrierefreiheit",
+          "description": "Hi, ich bin Ace! Ich helfe dir, deine Website zugänglicher zu machen – mit 12+ Funktionen für Schrift, Farbe, Vorlesen und mehr.",
+          "inLanguage": "de-CH",
+          "publisher": { "@id": "https://compresso.ch/#organization" }
+        }
+      ]
+    }
     </script>
 </head>
 <body>
