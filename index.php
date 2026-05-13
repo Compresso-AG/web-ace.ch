@@ -114,12 +114,12 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
                     <div class="why-card">
                         <span class="why-num">02</span>
                         <h3>1.7 Mio. Menschen in der Schweiz.</h3>
-                        <p>So viele leben mit einer Behinderung. Mit mir machst du deine Inhalte für mehr Menschen erreichbar – inklusive jede:r, der gerade eine Brille sucht.</p>
+                        <p>>So viele leben mit einer Beeinträchtigung. Ohne mich schliesst du einen relevanten Teil deiner Zielgruppe aus – und dazu alle, die gerade ihre Brille suchen.</p>
                     </div>
                     <div class="why-card">
                         <span class="why-num">03</span>
                         <h3>Bessere Usability für alle.</h3>
-                        <p>Lesbarere Schrift, klarerer Kontrast, ruhigere Seite – das hilft allen Besuchern. Und Google merkt's auch beim SEO.</p>
+                        <p>Lesbare Schrift, klarer Kontrast, ruhige Seite, das hilft allen Besuchern. Und Google merkt's auch beim SEO.</p>
                     </div>
                 </div>
             </div>
