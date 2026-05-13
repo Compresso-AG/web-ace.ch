@@ -1,3 +1,10 @@
+<?php
+if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
+    $scheme = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
+    header('Location: ' . $scheme . '://web-ace.ch' . ($_SERVER['REQUEST_URI'] ?? '/'), true, 301);
+    exit;
+}
+?>
 <!DOCTYPE html>
 <html lang="de" class="scroll-smooth">
 <head>
