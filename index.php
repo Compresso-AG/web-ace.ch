@@ -400,6 +400,6 @@
     </button>
 
     <script src="js/app.js?v=<?= filemtime(__DIR__ . '/js/app.js') ?>"></script>
-    <script src="https://a11y.compresso.ch/widget.js?key=ooRfWlLCsQiCHs4esTg8maKzn4zeX9XTIkwBcEyyM6JTAvuV8jvn3SEIf7YYWwZs" defer></script>
+    <script src="https://a11y.compresso.ch/widget.js?key=mvWt1YwuJtWjzo6tsZKYOP8jazh9oKwEO35HWYqSNsxGiJSKxTVCXqR31MlvOUpv" defer></script>
 </body>
 </html>
