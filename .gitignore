@@ -1,0 +1,17 @@
+.ddev/.dbimage.txt
+.ddev/.ddev-docker-compose-full.yaml
+.ddev/.ddev-docker-compose-base.yaml
+.ddev/.ssh-auth-compose-full.yaml
+.ddev/.ssh-auth-compose-base.yaml
+.ddev/db_snapshots
+.ddev/import-db
+.ddev/postgres_snapshots
+.ddev/traefik/config/dynamic_config.yaml
+.ddev/traefik/certs
+.DS_Store
+.idea/
+.vscode/
+node_modules/
+vendor/
+.env
+.npmrc
