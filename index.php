@@ -75,7 +75,7 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
                 <div class="hero-text">
                     <span class="eyebrow">Hi 👋 ich bin</span>
                     <h1>Ace.<br><span class="text-stroke">Dein Web-<br>Sidekick.</span></h1>
-                    <p class="subline">Ich helfe dir, deine Website für mehr Menschen zugänglich zu machen – damit jede:r so liest, hört und navigiert, wie es passt.</p>
+                    <p class="subline">Ich helfe dir, deine Website für mehr Menschen zugänglich zu machen – damit alle Menschen so lesen, hören und navigieren, wie es Ihnen passt.</p>
                     <div class="actions">
                         <a href="#price" class="btn btn-primary">Ace einbauen</a>
                         <a href="#skills" class="btn btn-ghost">Mehr über mich <span aria-hidden="true">↓</span></a>
