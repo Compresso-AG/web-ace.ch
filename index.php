@@ -256,7 +256,7 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
                     <li class="how-step">
                         <span class="how-num">1</span>
                         <h3>Du buchst Ace.</h3>
-                        <p>Wir schalten das Widget für dich frei – schnell, unkompliziert, ohne Ausfallzeit.</p>
+                        <p>Wir schalten das Widget für dich frei.</p>
                     </li>
                     <li class="how-step">
                         <span class="how-num">2</span>
@@ -282,7 +282,7 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
                 <ul class="perks-list">
                     <li>
                         <strong>Kein Aufwand für dich.</strong>
-                        Wir integrieren mich – du musst an deiner Website nichts ändern.
+                        Wir integrieren mich und du musst an deiner Website nichts ändern.
                     </li>
                     <li>
                         <strong>DSGVO-konform.</strong>
@@ -290,7 +290,7 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
                     </li>
                     <li>
                         <strong>Mehrsprachig.</strong>
-                        Deutsch, Französisch, Italienisch, Englisch – ich erkenne deine Seitensprache automatisch.
+                        Deutsch, Französisch, Italienisch, Englisch. Ich erkenne deine Seitensprache automatisch.
                     </li>
                     <li>
                         <strong>WordPress Plugin.</strong>
@@ -313,7 +313,7 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
             <div class="container">
                 <div class="demo-header">
                     <span class="kicker kicker-light">— Sag Hallo zu mir</span>
-                    <h2>Ich bin schon da.</h2>
+                    <h2>Probier mich aus.</h2>
                     <p class="lead">Klick unten rechts auf den gelben Knopf – da wohne ich auf dieser Seite. Probier die Funktionen direkt aus, niemand schaut dir zu.</p>
                 </div>
 
