@@ -233,7 +233,7 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
                         <div class="skill-card">
                             <div class="skill-icon"><img src="assets/icons/video-slash.svg" alt=""></div>
                             <h4>Videos ausblenden</h4>
-                            <p>Videos und Mediaplayer weg – für einen ablenkungsfreien Seitenbesuch.</p>
+                            <p>Videos und Mediaplayer weg, um komplett ohne Ablenkung die Seite zu besuchen.</p>
                         </div>
                         <div class="skill-card">
                             <div class="skill-icon"><img src="assets/icons/volume-high.svg" alt=""></div>
