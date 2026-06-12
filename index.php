@@ -10,8 +10,8 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ace – Dein Maskottchen für mehr Barrierefreiheit | Compresso</title>
-    <meta name="description" content="Hi, ich bin Ace! Ich helfe dir, deine Website zugänglicher zu machen – mit 12+ Funktionen für Schrift, Farbe, Vorlesen und mehr.">
+    <title>Ace – Einfache Sprache &amp; Barrierefreiheit für deine Website</title>
+    <meta name="description" content="Hi, ich bin Ace! Meine Superkraft: Texte auf Knopfdruck in Einfache Sprache übersetzen – und du kannst jeden Text selbst anpassen. Dazu 12+ Funktionen für Schrift, Farbe und Vorlesen.">
     <meta name="theme-color" content="#a0ebca">
 
     <link rel="canonical" href="https://web-ace.ch/">
@@ -21,13 +21,13 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
     <meta property="og:site_name" content="Ace – Compresso AG">
     <meta property="og:locale" content="de_CH">
     <meta property="og:url" content="https://web-ace.ch/">
-    <meta property="og:title" content="Ace – Dein Maskottchen für mehr Barrierefreiheit">
-    <meta property="og:description" content="Hi, ich bin Ace! Ich helfe dir, deine Website zugänglicher zu machen – mit 12+ Funktionen für Schrift, Farbe, Vorlesen und mehr.">
+    <meta property="og:title" content="Ace – Einfache Sprache & Barrierefreiheit für deine Website">
+    <meta property="og:description" content="Meine Superkraft: Texte auf Knopfdruck in Einfache Sprache – und du kannst jeden Text selbst anpassen. Dazu 12+ Funktionen für Schrift, Farbe und Vorlesen.">
     <meta property="og:image" content="https://web-ace.ch/assets/ace.svg">
     <meta property="og:image:alt" content="Ace, das Maskottchen für Web-Barrierefreiheit">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Ace – Dein Maskottchen für mehr Barrierefreiheit">
-    <meta name="twitter:description" content="Hi, ich bin Ace! Ich helfe dir, deine Website zugänglicher zu machen – mit 12+ Funktionen.">
+    <meta name="twitter:title" content="Ace – Einfache Sprache & Barrierefreiheit für deine Website">
+    <meta name="twitter:description" content="Meine Superkraft: Texte auf Knopfdruck in Einfache Sprache – und du kannst jeden Text selbst anpassen. Dazu 12+ Funktionen.">
     <meta name="twitter:image" content="https://web-ace.ch/assets/ace.svg">
     <meta name="twitter:image:alt" content="Ace, das Maskottchen für Web-Barrierefreiheit">
 
@@ -64,8 +64,8 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
           "@type": "WebSite",
           "@id": "https://web-ace.ch/#website",
           "url": "https://web-ace.ch/",
-          "name": "Ace – Dein Maskottchen für mehr Barrierefreiheit",
-          "description": "Hi, ich bin Ace! Ich helfe dir, deine Website zugänglicher zu machen – mit 12+ Funktionen für Schrift, Farbe, Vorlesen und mehr.",
+          "name": "Ace – Einfache Sprache & Barrierefreiheit für deine Website",
+          "description": "Hi, ich bin Ace! Meine Superkraft: Texte auf Knopfdruck in Einfache Sprache übersetzen – und du kannst jeden Text selbst anpassen. Dazu 12+ Funktionen für Schrift, Farbe und Vorlesen.",
           "inLanguage": "de-CH",
           "publisher": { "@id": "https://compresso.ch/#organization" }
         }
@@ -218,6 +218,23 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
                     </div>
                 </div>
 
+                <!-- Group 0: Verstehen (Flaggschiff) -->
+                <div class="skill-group">
+                    <header class="skill-group-head">
+                        <span class="skill-group-emoji">🧠</span>
+                        <h3>Verstehen.</h3>
+                        <span class="skill-group-line"></span>
+                    </header>
+                    <div class="skill-grid">
+                        <div class="skill-card skill-card-star">
+                            <span class="skill-star-badge">Meine Superkraft</span>
+                            <div class="skill-icon"><img src="assets/icons/globe.svg" alt=""></div>
+                            <h4>Einfache Sprache</h4>
+                            <p>Komplexe Texte auf Knopfdruck in einfache Sprache. In vier Sprachen – und jeder Text bleibt von dir anpassbar. <a href="#simple">Mehr dazu ↑</a></p>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Group 1: Lesen -->
                 <div class="skill-group">
                     <header class="skill-group-head">
@@ -360,6 +377,10 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
                 </div>
                 <ul class="perks-list">
                     <li>
+                        <strong>Du bleibst Autor.</strong>
+                        Jeden Text in einfacher Sprache kannst du im Dashboard selbst anpassen und festschreiben – das geht bei anderen Tools nicht.
+                    </li>
+                    <li>
                         <strong>Kein Aufwand für dich.</strong>
                         Wir integrieren mich und du musst an deiner Website nichts ändern.
                     </li>
@@ -439,7 +460,8 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
                         <div class="price-original">CHF 390 / Jahr</div>
                         <div class="price-special">CHF 200<span>/ Jahr</span></div>
                         <ul class="price-features">
-                            <li>12+ Barrierefreiheits-Funktionen</li>
+                            <li><strong>Einfache Sprache</strong> – von dir anpassbar</li>
+                            <li>12+ weitere Barrierefreiheits-Funktionen</li>
                             <li>Unbegrenzte Seitenaufrufe</li>
                             <li>Mehrsprachig (DE / FR / IT / EN)</li>
                             <li>Custom Design (Icon, Farbe, Theme)</li>
