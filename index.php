@@ -161,6 +161,49 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
             </div>
         </section>
 
+        <!-- 2.5) EINFACHE SPRACHE – Flaggschiff-Funktion -->
+        <section id="simple" class="section-simple">
+            <div class="container">
+                <div class="simple-grid">
+                    <div class="simple-text">
+                        <span class="kicker kicker-dark">— Das kann sonst keiner</span>
+                        <h2>Einfache Sprache.<br>Auf einen Klick.</h2>
+                        <p class="lead">Verschachtelte Sätze, Fachbegriffe, Behördendeutsch – für viele Menschen eine echte Hürde. Über <strong>800'000 Menschen in der Schweiz</strong> lesen Standardtexte nur schwer. Ich übersetze deine Inhalte auf Knopfdruck in einfache, klare Sprache: kurze Sätze, einfache Wörter, sofort verständlich. Niemand muss deine Seite verlassen oder ein Extra-Tool öffnen.</p>
+
+                        <div class="simple-usp">
+                            <span class="simple-usp-badge">✏️ Nur bei mir</span>
+                            <h3>Du behältst die Kontrolle über jeden Text.</h3>
+                            <p>Andere Tools übersetzen automatisch – und du musst nehmen, was die Maschine ausspuckt. Bei mir nicht: Jeden vereinfachten Text siehst du in deinem Dashboard und kannst ihn mit einem Klick anpassen, umschreiben oder festschreiben. So bleibt deine Stimme deine Stimme. <em>Bei Tools wie EyeAble &amp; Co. geht das nicht.</em></p>
+                        </div>
+
+                        <ul class="simple-points">
+                            <li>Auf Knopfdruck umgeschaltet – ohne Wartezeit</li>
+                            <li>In vier Sprachen: Deutsch, Französisch, Italienisch, Englisch</li>
+                            <li>Jeder Text von dir anpassbar und freigebbar</li>
+                            <li>Einmal angepasst – bleibt so, kein Überschreiben</li>
+                        </ul>
+                    </div>
+
+                    <div class="simple-demo">
+                        <div class="simple-toggle" aria-hidden="true">
+                            <span class="simple-toggle-opt">Original</span>
+                            <span class="simple-toggle-opt is-active">Einfache Sprache</span>
+                        </div>
+                        <div class="simple-card simple-card-before">
+                            <span class="simple-card-label">Vorher</span>
+                            <p>Im Falle einer nicht fristgerechten Begleichung der ausstehenden Forderung behalten wir uns die Geltendmachung weiterer Schritte vor.</p>
+                        </div>
+                        <div class="simple-arrow" aria-hidden="true">↓</div>
+                        <div class="simple-card simple-card-after">
+                            <span class="simple-card-label">Einfache Sprache</span>
+                            <p>Bitte zahlen Sie die Rechnung rechtzeitig. Sonst müssen wir weitere Schritte einleiten.</p>
+                            <span class="simple-edit-tag">✏️ Von dir anpassbar</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- 3) SKILLS / FEATURES -->
         <section id="skills" class="section-skills">
             <div class="container">
