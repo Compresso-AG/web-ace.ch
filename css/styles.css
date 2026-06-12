@@ -213,7 +213,15 @@ strong { color: var(--color-primary); font-weight: 700; }
     width: 100%;
 }
 
-.logo-img { height: 36px; width: auto; }
+.logo-link { display: flex; align-items: center; gap: 9px; }
+.logo-mark { height: 38px; width: auto; }
+.logo-word {
+    font-family: var(--font-family-hand);
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000;
+    line-height: 1;
+}
 
 #header nav ul {
     display: flex;

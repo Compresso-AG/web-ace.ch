@@ -80,8 +80,9 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
     <!-- Navigation -->
     <header id="header">
         <div class="container">
-            <a href="#hero" class="logo-link">
-                <img src="assets/logo.png" alt="Compresso AG" class="logo-img">
+            <a href="#hero" class="logo-link" aria-label="Ace – zur Startseite">
+                <img src="assets/favicon.svg" alt="" class="logo-mark" aria-hidden="true">
+                <span class="logo-word">Ace</span>
             </a>
             <button class="mobile-menu-toggle" aria-label="Menu öffnen" aria-expanded="false">
                 <span></span>
@@ -90,6 +91,7 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
             </button>
             <nav id="main-nav">
                 <ul>
+                    <li><a href="#simple">Einfache Sprache</a></li>
                     <li><a href="#skills">Was ich kann</a></li>
                     <li><a href="#why">Warum?</a></li>
                     <li><a href="#how">So geht's</a></li>
@@ -109,7 +111,7 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
                 <div class="hero-text">
                     <span class="eyebrow">Hi 👋 ich bin</span>
                     <h1>Ace.<br><span class="text-stroke">Dein Web-<br>Sidekick.</span></h1>
-                    <p class="subline">Ich helfe dir, deine Website für mehr Menschen zugänglich zu machen – damit alle Menschen so lesen, hören und navigieren, wie es Ihnen passt.</p>
+                    <p class="subline">Ich mache deine Website für mehr Menschen verständlich – mit meiner Superkraft <strong>Einfache Sprache</strong> und über 12 weiteren Werkzeugen zum Lesen, Sehen, Hören und Navigieren.</p>
                     <div class="actions">
                         <a href="#price" class="btn btn-primary">Ace einbauen</a>
                         <a href="#skills" class="btn btn-ghost">Mehr über mich <span aria-hidden="true">↓</span></a>
