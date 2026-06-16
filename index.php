@@ -171,7 +171,7 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
                         <p class="lead">Verschachtelte Sätze, Fachbegriffe, Behördendeutsch – für viele Menschen eine echte Hürde. Über <strong>800'000 Menschen in der Schweiz</strong> lesen Standardtexte nur schwer. Ich übersetze deine Inhalte auf Knopfdruck in einfache, klare Sprache: kurze Sätze, einfache Wörter, sofort verständlich. Niemand muss deine Seite verlassen oder ein Extra-Tool öffnen.</p>
 
                         <div class="simple-usp">
-                            <span class="simple-usp-badge">✏️ Nur bei mir</span>
+                            <span class="simple-usp-badge">Nur bei mir</span>
                             <h3>Du behältst die Kontrolle über jeden Text.</h3>
                             <p>Andere Tools übersetzen automatisch – und du musst nehmen, was die Maschine ausspuckt. Bei mir nicht: Jeden vereinfachten Text siehst du in deinem Dashboard und kannst ihn mit einem Klick anpassen, umschreiben oder festschreiben. So bleibt deine Stimme deine Stimme. <em>Bei Tools wie EyeAble &amp; Co. geht das nicht.</em></p>
                         </div>
