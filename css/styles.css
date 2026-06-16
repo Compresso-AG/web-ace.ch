@@ -646,14 +646,15 @@ section { padding: var(--spacing-xl) 0; position: relative; }
 
 /* Hervorgehobene Flaggschiff-Card */
 .skill-card-star {
-    background: var(--gradient-brand);
+    background: var(--ace-yellow);
     box-shadow: 6px 6px 0 #000;
 }
 .skill-card-star:hover {
-    background: var(--gradient-brand);
+    background: #fff;
     transform: translateY(-4px);
 }
 .skill-card-star .skill-icon { background: #fff; }
+.skill-card-star:hover .skill-icon { background: var(--ace-yellow); }
 .skill-star-badge {
     display: inline-block;
     background: #000;
