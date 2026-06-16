@@ -166,7 +166,7 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
             <div class="container">
                 <div class="simple-grid">
                     <div class="simple-text">
-                        <span class="kicker kicker-dark">— Das kann sonst keiner</span>
+                        <span class="kicker">— Das kann sonst keiner</span>
                         <h2>Einfache Sprache.<br>Auf einen Klick.</h2>
                         <p class="lead">Verschachtelte Sätze, Fachbegriffe, Behördendeutsch – für viele Menschen eine echte Hürde. Über <strong>800'000 Menschen in der Schweiz</strong> lesen Standardtexte nur schwer. Ich übersetze deine Inhalte auf Knopfdruck in einfache, klare Sprache: kurze Sätze, einfache Wörter, sofort verständlich. Niemand muss deine Seite verlassen oder ein Extra-Tool öffnen.</p>
 
@@ -197,7 +197,7 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
                         <div class="simple-card simple-card-after">
                             <span class="simple-card-label">Einfache Sprache</span>
                             <p>Bitte zahlen Sie die Rechnung rechtzeitig. Sonst müssen wir weitere Schritte einleiten.</p>
-                            <span class="simple-edit-tag">✏️ Von dir anpassbar</span>
+                            <span class="simple-edit-tag">Von dir anpassbar</span>
                         </div>
                     </div>
                 </div>

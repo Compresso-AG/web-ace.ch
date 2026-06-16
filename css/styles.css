@@ -734,7 +734,7 @@ section { padding: var(--spacing-xl) 0; position: relative; }
     transition: all 0.25s ease;
 }
 
-.how-step h3 { margin-bottom: 0.5rem; }
+.how-step h3 { margin-bottom: 0.5rem; transition: color 0.25s ease; }
 .how-step p { color: #ccc; transition: color 0.25s ease; }
 
 /* ============ PERKS ============ */
@@ -781,6 +781,7 @@ section { padding: var(--spacing-xl) 0; position: relative; }
     font-weight: 900;
     font-size: 1.1rem;
     color: #000;
+    transition: background 0.25s ease, color 0.25s ease;
 }
 .perks-list li:hover {
     background: var(--ace-yellow);
@@ -908,13 +909,14 @@ section { padding: var(--spacing-xl) 0; position: relative; }
 
 /* ============ EINFACHE SPRACHE (Flaggschiff) ============ */
 .section-simple {
-    background: var(--gradient-brand);
+    background: #000;
+    color: #fff;
     padding: var(--spacing-xl) 0;
-    border-top: 2px solid #000;
-    border-bottom: 2px solid #000;
     position: relative;
     overflow: hidden;
 }
+.section-simple .kicker { color: var(--ace-yellow); }
+.section-simple h2 { color: #fff; }
 .simple-grid {
     display: grid;
     grid-template-columns: 1.05fr 0.95fr;
@@ -923,11 +925,12 @@ section { padding: var(--spacing-xl) 0; position: relative; }
 }
 .simple-text h2 { margin-bottom: var(--spacing-sm); }
 .simple-text .lead {
-    color: var(--color-text);
+    color: #bbb;
     font-size: 1.15rem;
     max-width: 560px;
     margin-bottom: var(--spacing-md);
 }
+.simple-text .lead strong { color: #fff; }
 
 .simple-usp {
     background: #fff;
@@ -967,7 +970,7 @@ section { padding: var(--spacing-xl) 0; position: relative; }
     position: relative;
     padding-left: 2.1rem;
     font-weight: 600;
-    color: var(--color-text);
+    color: #eee;
 }
 .simple-points li::before {
     content: '✓';
@@ -976,8 +979,8 @@ section { padding: var(--spacing-xl) 0; position: relative; }
     top: 0;
     width: 1.5rem;
     height: 1.5rem;
-    background: #000;
-    color: var(--ace-yellow);
+    background: var(--ace-yellow);
+    color: #000;
     border-radius: 50%;
     display: grid;
     place-items: center;
