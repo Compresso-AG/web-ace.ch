@@ -10,8 +10,8 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ace – Dein Maskottchen für mehr Barrierefreiheit | Compresso</title>
-    <meta name="description" content="Hi, ich bin Ace! Ich helfe dir, deine Website zugänglicher zu machen – mit 12+ Funktionen für Schrift, Farbe, Vorlesen und mehr.">
+    <title>Ace – Einfache Sprache &amp; Barrierefreiheit für deine Website</title>
+    <meta name="description" content="Hi, ich bin Ace! Meine Superkraft: Texte auf Knopfdruck in Einfache Sprache übersetzen – und du kannst jeden Text selbst anpassen. Dazu 12+ Funktionen für Schrift, Farbe und Vorlesen.">
     <meta name="theme-color" content="#a0ebca">
 
     <link rel="canonical" href="https://web-ace.ch/">
@@ -21,13 +21,13 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
     <meta property="og:site_name" content="Ace – Compresso AG">
     <meta property="og:locale" content="de_CH">
     <meta property="og:url" content="https://web-ace.ch/">
-    <meta property="og:title" content="Ace – Dein Maskottchen für mehr Barrierefreiheit">
-    <meta property="og:description" content="Hi, ich bin Ace! Ich helfe dir, deine Website zugänglicher zu machen – mit 12+ Funktionen für Schrift, Farbe, Vorlesen und mehr.">
+    <meta property="og:title" content="Ace – Einfache Sprache & Barrierefreiheit für deine Website">
+    <meta property="og:description" content="Meine Superkraft: Texte auf Knopfdruck in Einfache Sprache – und du kannst jeden Text selbst anpassen. Dazu 12+ Funktionen für Schrift, Farbe und Vorlesen.">
     <meta property="og:image" content="https://web-ace.ch/assets/ace.svg">
     <meta property="og:image:alt" content="Ace, das Maskottchen für Web-Barrierefreiheit">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Ace – Dein Maskottchen für mehr Barrierefreiheit">
-    <meta name="twitter:description" content="Hi, ich bin Ace! Ich helfe dir, deine Website zugänglicher zu machen – mit 12+ Funktionen.">
+    <meta name="twitter:title" content="Ace – Einfache Sprache & Barrierefreiheit für deine Website">
+    <meta name="twitter:description" content="Meine Superkraft: Texte auf Knopfdruck in Einfache Sprache – und du kannst jeden Text selbst anpassen. Dazu 12+ Funktionen.">
     <meta name="twitter:image" content="https://web-ace.ch/assets/ace.svg">
     <meta name="twitter:image:alt" content="Ace, das Maskottchen für Web-Barrierefreiheit">
 
@@ -64,8 +64,8 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
           "@type": "WebSite",
           "@id": "https://web-ace.ch/#website",
           "url": "https://web-ace.ch/",
-          "name": "Ace – Dein Maskottchen für mehr Barrierefreiheit",
-          "description": "Hi, ich bin Ace! Ich helfe dir, deine Website zugänglicher zu machen – mit 12+ Funktionen für Schrift, Farbe, Vorlesen und mehr.",
+          "name": "Ace – Einfache Sprache & Barrierefreiheit für deine Website",
+          "description": "Hi, ich bin Ace! Meine Superkraft: Texte auf Knopfdruck in Einfache Sprache übersetzen – und du kannst jeden Text selbst anpassen. Dazu 12+ Funktionen für Schrift, Farbe und Vorlesen.",
           "inLanguage": "de-CH",
           "publisher": { "@id": "https://compresso.ch/#organization" }
         }
@@ -80,8 +80,9 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
     <!-- Navigation -->
     <header id="header">
         <div class="container">
-            <a href="#hero" class="logo-link">
-                <img src="assets/logo.png" alt="Compresso AG" class="logo-img">
+            <a href="#hero" class="logo-link" aria-label="Ace – zur Startseite">
+                <img src="assets/favicon.svg" alt="" class="logo-mark" aria-hidden="true">
+                <span class="logo-word">Ace</span>
             </a>
             <button class="mobile-menu-toggle" aria-label="Menu öffnen" aria-expanded="false">
                 <span></span>
@@ -90,6 +91,7 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
             </button>
             <nav id="main-nav">
                 <ul>
+                    <li><a href="#simple">Einfache Sprache</a></li>
                     <li><a href="#skills">Was ich kann</a></li>
                     <li><a href="#why">Warum?</a></li>
                     <li><a href="#how">So geht's</a></li>
@@ -109,7 +111,7 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
                 <div class="hero-text">
                     <span class="eyebrow">Hi 👋 ich bin</span>
                     <h1>Ace.<br><span class="text-stroke">Dein Web-<br>Sidekick.</span></h1>
-                    <p class="subline">Ich helfe dir, deine Website für mehr Menschen zugänglich zu machen – damit alle Menschen so lesen, hören und navigieren, wie es Ihnen passt.</p>
+                    <p class="subline">Ich mache deine Website für mehr Menschen verständlich – mit meiner Superkraft <strong>Einfache Sprache</strong> und über 12 weiteren Werkzeugen zum Lesen, Sehen, Hören und Navigieren.</p>
                     <div class="actions">
                         <a href="#price" class="btn btn-primary">Ace einbauen</a>
                         <a href="#skills" class="btn btn-ghost">Mehr über mich <span aria-hidden="true">↓</span></a>
@@ -159,6 +161,49 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
             </div>
         </section>
 
+        <!-- 2.5) EINFACHE SPRACHE – Flaggschiff-Funktion -->
+        <section id="simple" class="section-simple">
+            <div class="container">
+                <div class="simple-grid">
+                    <div class="simple-text">
+                        <span class="kicker">— Das kann sonst keiner</span>
+                        <h2>Einfache Sprache.<br>Auf einen Klick.</h2>
+                        <p class="lead">Verschachtelte Sätze, Fachbegriffe, Behördendeutsch – für viele Menschen eine echte Hürde. Über <strong>800'000 Menschen in der Schweiz</strong> lesen Standardtexte nur schwer. Ich übersetze deine Inhalte auf Knopfdruck in einfache, klare Sprache: kurze Sätze, einfache Wörter, sofort verständlich. Niemand muss deine Seite verlassen oder ein Extra-Tool öffnen.</p>
+
+                        <div class="simple-usp">
+                            <span class="simple-usp-badge">Nur bei mir</span>
+                            <h3>Du behältst die Kontrolle über jeden Text.</h3>
+                            <p>Andere Tools übersetzen automatisch – und du musst nehmen, was die Maschine ausspuckt. Bei mir nicht: Jeden vereinfachten Text siehst du in deinem Dashboard und kannst ihn mit einem Klick anpassen, umschreiben oder festschreiben. So bleibt deine Stimme deine Stimme. <em>Bei Tools wie EyeAble &amp; Co. geht das nicht.</em></p>
+                        </div>
+
+                        <ul class="simple-points">
+                            <li>Auf Knopfdruck umgeschaltet – ohne Wartezeit</li>
+                            <li>In vier Sprachen: Deutsch, Französisch, Italienisch, Englisch</li>
+                            <li>Jeder Text von dir anpassbar und freigebbar</li>
+                            <li>Einmal angepasst – bleibt so, kein Überschreiben</li>
+                        </ul>
+                    </div>
+
+                    <div class="simple-demo">
+                        <div class="simple-toggle" aria-hidden="true">
+                            <span class="simple-toggle-opt">Original</span>
+                            <span class="simple-toggle-opt is-active">Einfache Sprache</span>
+                        </div>
+                        <div class="simple-card simple-card-before">
+                            <span class="simple-card-label">Vorher</span>
+                            <p>Im Falle einer nicht fristgerechten Begleichung der ausstehenden Forderung behalten wir uns die Geltendmachung weiterer Schritte vor.</p>
+                        </div>
+                        <div class="simple-arrow" aria-hidden="true">↓</div>
+                        <div class="simple-card simple-card-after">
+                            <span class="simple-card-label">Einfache Sprache</span>
+                            <p>Bitte zahlen Sie die Rechnung rechtzeitig. Sonst müssen wir weitere Schritte einleiten.</p>
+                            <span class="simple-edit-tag">Von dir anpassbar</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- 3) SKILLS / FEATURES -->
         <section id="skills" class="section-skills">
             <div class="container">
@@ -173,10 +218,25 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
                     </div>
                 </div>
 
+                <!-- Group 0: Verstehen (Flaggschiff) -->
+                <div class="skill-group">
+                    <header class="skill-group-head">
+                        <h3>Verstehen.</h3>
+                        <span class="skill-group-line"></span>
+                    </header>
+                    <div class="skill-grid">
+                        <div class="skill-card skill-card-star">
+                            <span class="skill-star-badge">Meine Superkraft</span>
+                            <div class="skill-icon"><img src="assets/icons/globe.svg" alt=""></div>
+                            <h4>Einfache Sprache</h4>
+                            <p>Komplexe Texte auf Knopfdruck in einfache Sprache. In vier Sprachen – und jeder Text bleibt von dir anpassbar. <a href="#simple">Mehr dazu ↑</a></p>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Group 1: Lesen -->
                 <div class="skill-group">
                     <header class="skill-group-head">
-                        <span class="skill-group-emoji">📖</span>
                         <h3>Lesen.</h3>
                         <span class="skill-group-line"></span>
                     </header>
@@ -202,7 +262,6 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
                 <!-- Group 2: Sehen -->
                 <div class="skill-group">
                     <header class="skill-group-head">
-                        <span class="skill-group-emoji">👁️</span>
                         <h3>Sehen.</h3>
                         <span class="skill-group-line"></span>
                     </header>
@@ -228,7 +287,6 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
                 <!-- Group 3: Bewegen -->
                 <div class="skill-group">
                     <header class="skill-group-head">
-                        <span class="skill-group-emoji">🖱️</span>
                         <h3>Bewegen.</h3>
                         <span class="skill-group-line"></span>
                     </header>
@@ -254,7 +312,6 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
                 <!-- Group 4: Hören & Fokus -->
                 <div class="skill-group">
                     <header class="skill-group-head">
-                        <span class="skill-group-emoji">🎧</span>
                         <h3>Hören &amp; Fokus.</h3>
                         <span class="skill-group-line"></span>
                     </header>
@@ -314,6 +371,10 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
                     <h2>Ich bin <span class="underline-wave">zuverlässig</span>.</h2>
                 </div>
                 <ul class="perks-list">
+                    <li>
+                        <strong>Du bleibst Autor.</strong>
+                        Jeden Text in einfacher Sprache kannst du im Dashboard selbst anpassen und festschreiben – das geht bei anderen Tools nicht.
+                    </li>
                     <li>
                         <strong>Kein Aufwand für dich.</strong>
                         Wir integrieren mich und du musst an deiner Website nichts ändern.
@@ -394,7 +455,8 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
                         <div class="price-original">CHF 390 / Jahr</div>
                         <div class="price-special">CHF 200<span>/ Jahr</span></div>
                         <ul class="price-features">
-                            <li>12+ Barrierefreiheits-Funktionen</li>
+                            <li><strong>Einfache Sprache</strong> – von dir anpassbar</li>
+                            <li>12+ weitere Barrierefreiheits-Funktionen</li>
                             <li>Unbegrenzte Seitenaufrufe</li>
                             <li>Mehrsprachig (DE / FR / IT / EN)</li>
                             <li>Custom Design (Icon, Farbe, Theme)</li>
