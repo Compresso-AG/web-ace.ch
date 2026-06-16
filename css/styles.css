@@ -572,10 +572,6 @@ section { padding: var(--spacing-xl) 0; position: relative; }
     gap: var(--spacing-sm);
     margin-bottom: var(--spacing-md);
 }
-.skill-group-emoji {
-    font-size: 1.8rem;
-    line-height: 1;
-}
 .skill-group-head h3 {
     font-size: 1.8rem;
     margin: 0;

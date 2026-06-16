@@ -221,7 +221,6 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
                 <!-- Group 0: Verstehen (Flaggschiff) -->
                 <div class="skill-group">
                     <header class="skill-group-head">
-                        <span class="skill-group-emoji">🧠</span>
                         <h3>Verstehen.</h3>
                         <span class="skill-group-line"></span>
                     </header>
@@ -238,7 +237,6 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
                 <!-- Group 1: Lesen -->
                 <div class="skill-group">
                     <header class="skill-group-head">
-                        <span class="skill-group-emoji">📖</span>
                         <h3>Lesen.</h3>
                         <span class="skill-group-line"></span>
                     </header>
@@ -264,7 +262,6 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
                 <!-- Group 2: Sehen -->
                 <div class="skill-group">
                     <header class="skill-group-head">
-                        <span class="skill-group-emoji">👁️</span>
                         <h3>Sehen.</h3>
                         <span class="skill-group-line"></span>
                     </header>
@@ -290,7 +287,6 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
                 <!-- Group 3: Bewegen -->
                 <div class="skill-group">
                     <header class="skill-group-head">
-                        <span class="skill-group-emoji">🖱️</span>
                         <h3>Bewegen.</h3>
                         <span class="skill-group-line"></span>
                     </header>
@@ -316,7 +312,6 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
                 <!-- Group 4: Hören & Fokus -->
                 <div class="skill-group">
                     <header class="skill-group-head">
-                        <span class="skill-group-emoji">🎧</span>
                         <h3>Hören &amp; Fokus.</h3>
                         <span class="skill-group-line"></span>
                     </header>
