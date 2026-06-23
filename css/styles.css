@@ -1178,6 +1178,10 @@ section { padding: var(--spacing-xl) 0; position: relative; }
     font-size: 0.8rem;
 }
 
+.price-card .btn-block + .btn-block {
+    margin-top: var(--spacing-sm);
+}
+
 .price-note {
     font-size: 0.85rem;
     color: var(--color-text-light);

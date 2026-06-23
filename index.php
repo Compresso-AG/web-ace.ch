@@ -450,10 +450,9 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
                         <?php include __DIR__ . '/partials/ace.svg.php'; ?>
                     </div>
                     <div class="price-card">
-                        <div class="price-badge">Spezialangebot bis Ende 2026</div>
+                        <div class="price-badge">30 Tage kostenlos testen</div>
                         <h3>Ace fürs ganze Jahr</h3>
-                        <div class="price-original">CHF 390 / Jahr</div>
-                        <div class="price-special">CHF 200<span>/ Jahr</span></div>
+                        <div class="price-special">CHF 390<span>/ Jahr</span></div>
                         <ul class="price-features">
                             <li><strong>Einfache Sprache</strong> – von dir anpassbar</li>
                             <li>12+ weitere Barrierefreiheits-Funktionen</li>
@@ -464,8 +463,9 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
                             <li>Admin-Dashboard mit Statistiken</li>
                             <li>DSGVO-konform &amp; ohne Tracking</li>
                         </ul>
-                        <a href="mailto:info@compresso.ch?subject=Ich%20m%C3%B6chte%20Ace%20auf%20meiner%20Website" class="btn btn-primary btn-block">Ich will Ace</a>
-                        <p class="price-note">Keine versteckten Kosten. Jährlich kündbar.</p>
+                        <a href="https://a11y.compresso.ch/register" class="btn btn-primary btn-block">Jetzt registrieren</a>
+                        <a href="mailto:info@compresso.ch?subject=Ich%20m%C3%B6chte%20Ace%20auf%20meiner%20Website" class="btn btn-ghost btn-block">Ich will Ace</a>
+                        <p class="price-note">30 Tage kostenlos testen, danach CHF 390 / Jahr. Jährlich kündbar, keine versteckten Kosten.</p>
                     </div>
                 </div>
             </div>
