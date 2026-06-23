@@ -2,6 +2,12 @@
 
 Landingpage für **Ace** – das Maskottchen und Accessibility-Widget der Compresso AG. Eigene Domain (`web-ace.ch`), eigene Codebasis. Ursprünglich Teil des Mono-Repos `compresso-products-landingpages`, jetzt ausgelagert.
 
+## Produkt-App & Preis
+
+- Diese Seite ist reines Marketing. Registrierung, Kundenkonto, Abo (Stripe) und das Admin-Dashboard laufen über die **separate App `a11y.compresso.ch`** (eigenes Repo `~/Sites/a11y.compresso.ch`).
+- Die Preis-Sektion (`#price` in `index.php`) verlinkt mit »Jetzt registrieren« direkt auf `https://a11y.compresso.ch/register`.
+- Preis: **CHF 390 / Jahr** pro Domain, **30 Tage kostenlos testen**. Kein Rabatt-/Spezialangebot mehr (früher CHF 200).
+
 ## Projektstruktur
 
 ```

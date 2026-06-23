@@ -4,6 +4,8 @@ Landingpage für **Ace** – das Accessibility-Widget der [Compresso AG](https:/
 
 Diese Seite präsentiert das Produkt, seine Funktionen und Einsatzmöglichkeiten unter [web-ace.ch](https://web-ace.ch).
 
+Registrierung, Kundenkonto und Abo laufen über die App unter [a11y.compresso.ch](https://a11y.compresso.ch); die Preis-Sektion verlinkt mit »Jetzt registrieren« direkt dorthin. Preis: **CHF 390 / Jahr** pro Domain mit **30 Tagen kostenlos**.
+
 ## Technologie
 
 | Bereich      | Stack                            |
