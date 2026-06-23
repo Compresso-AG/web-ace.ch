@@ -464,7 +464,6 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
                             <li>DSGVO-konform &amp; ohne Tracking</li>
                         </ul>
                         <a href="https://a11y.compresso.ch/register" class="btn btn-primary btn-block">Jetzt registrieren</a>
-                        <a href="mailto:info@compresso.ch?subject=Ich%20m%C3%B6chte%20Ace%20auf%20meiner%20Website" class="btn btn-ghost btn-block">Ich will Ace</a>
                         <p class="price-note">30 Tage kostenlos testen, danach CHF 390 / Jahr. Jährlich kündbar, keine versteckten Kosten.</p>
                     </div>
                 </div>
