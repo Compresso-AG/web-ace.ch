@@ -109,8 +109,8 @@ if (($_SERVER['HTTP_HOST'] ?? '') === 'www.web-ace.ch') {
             <div class="hero-blob hero-blob-2"></div>
             <div class="container hero-grid">
                 <div class="hero-text">
-                    <span class="eyebrow">Hi 👋 ich bin</span>
-                    <h1>Ace.<br><span class="text-stroke">Dein Web-<br>Sidekick.</span></h1>
+                    <span class="eyebrow">Hi, ich bin</span>
+                    <h1>Ace.<br><span class="text-stroke">Dein Buddy für<br>barrierefreiere<br>Websites.</span></h1>
                     <p class="subline">Ich mache deine Website für mehr Menschen verständlich – mit meiner Superkraft <strong>Einfache Sprache</strong> und über 12 weiteren Werkzeugen zum Lesen, Sehen, Hören und Navigieren.</p>
                     <div class="actions">
                         <a href="#price" class="btn btn-primary">Ace einbauen</a>
